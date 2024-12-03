@@ -14,8 +14,8 @@
 }
 
 .accent-border {
-    border: 2px solid #00f2ea;
-    box-shadow: 0 0 20px rgba(0, 242, 234, 0.3);
+    border: 2px solid #a855f7; /* Updated to purple */
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.3); /* Updated to purple */
 }
 
 .glow-text {
@@ -30,9 +30,9 @@
 
 .phone-mockup {
     background: #222;
-    border-radius: 40px;
+    border-radius: 30px;
     padding: 10px;
-    box-shadow: 0 0 30px rgba(0, 242, 234, 0.2);
+    box-shadow: 0 0 30px rgba(168, 85, 247, 0.2); /* Updated to purple */
     position: relative;
 }
 
@@ -50,18 +50,18 @@
 }
 
 .problem-item {
-    background: rgba(0, 242, 234, 0.05);
-    border-left: 3px solid #00f2ea;
+    background: rgba(168, 85, 247, 0.05); /* Updated to purple */
+    border-left: 3px solid #a855f7; /* Updated to purple */
 }
 
 .next-btn {
-    background: linear-gradient(45deg, #00f2ea, #0099ff);
+    background: linear-gradient(45deg, #a855f7, #7c3aed); /* Updated to purple gradient */
     transition: all 0.3s ease;
 }
 
 .next-btn:hover {
     transform: translateX(5px);
-    box-shadow: 0 0 20px rgba(0, 242, 234, 0.5);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5); /* Updated to purple */
 }
 
 .content-container {
@@ -79,8 +79,8 @@
 
 .revenue-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 242, 234, 0.1);
-    border-color: rgba(0, 242, 234, 0.3);
+    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.1); /* Updated to purple */
+    border-color: rgba(168, 85, 247, 0.3); /* Updated to purple */
 }
 
 .revenue-details {
@@ -124,8 +124,8 @@
 
 .advantage-card:hover {
     transform: translateY(-5px);
-    border-color: rgba(0, 242, 234, 0.3);
-    box-shadow: 0 10px 30px rgba(0, 242, 234, 0.1);
+    border-color: rgba(168, 85, 247, 0.3); /* Updated to purple */
+    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.1); /* Updated to purple */
 }
 
 .advantage-card:hover .advantage-icon {
@@ -152,7 +152,7 @@
 
 .progress {
     height: 100%;
-    background: linear-gradient(90deg, #00f2ea, #0099ff);
+    background: linear-gradient(90deg, #a855f7, #7c3aed); /* Updated to purple gradient */
     border-radius: 2px;
     transition: width 1s ease;
 }
@@ -163,8 +163,8 @@
 
 .hover-expand:hover {
     transform: translateX(10px);
-    border-color: rgba(0, 242, 234, 0.3);
-    box-shadow: 0 5px 15px rgba(0, 242, 234, 0.1);
+    border-color: rgba(168, 85, 247, 0.3); /* Updated to purple */
+    box-shadow: 0 5px 15px rgba(168, 85, 247, 0.1); /* Updated to purple */
 }
 
 .comparison-block {
@@ -174,7 +174,7 @@
 .circular-progress {
     width: 120px;
     height: 120px;
-    border: 4px solid rgba(217, 119, 6, 0.2);
+    border: 4px solid rgba(217, 119, 6, 0.2); 
     border-radius: 50%;
     margin: 0 auto;
     display: flex;
@@ -193,7 +193,7 @@
     bottom: -4px;
     border-radius: 50%;
     border: 4px solid transparent;
-    border-top-color: #d97706;
+    border-top-color: #d97706; /* Updated to purple */
     animation: spin 2s linear infinite;
 }
 
